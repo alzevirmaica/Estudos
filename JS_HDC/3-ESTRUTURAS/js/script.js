@@ -1,9 +1,18 @@
-// 1 - Variáveis
-let nome = "Alzevir"
-console.log(nome)
+// 3 -prompt e alert
 
-nome = "Alzevir Maicá"
-console.log(nome)
+/*const nome = prompt("Digite o seu nome : ")
+const idade =prompt ("Digite sua idade: ")
+alert(`Olá ${nome}! você tem ${idade} anos.`)
+*/
 
-const idade = 38
-console.log(idade)
+// 5 - Math
+
+console.log(Math.max(3, 4, 6, 8))
+
+console.log(Math.floor(5.14))
+
+console.log(Math.ceil(5.14))
+
+// 6 - console
+console.error("erro!")
+console.warn("Aviso!")

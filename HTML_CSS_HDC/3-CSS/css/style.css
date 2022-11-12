@@ -1,0 +1,72 @@
+/* 4- External*/
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+/* classes */
+
+.paragraph {
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+}
+
+#titulo-exclusivo {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.rgba {
+    color: rgba(100, 199, 45, 0.3);
+}
+
+.bg {
+    background-color: #000;
+    color:yellow ;
+}
+
+.bg-2 {
+    background-color: rgb(200, 20, 40);
+    color:aquamarine ;
+}
+
+.bg-opacidade {
+    background-color: green;
+    opacity: 0.2; ;
+}
+
+.bg-opacidade-2 {
+    background-color: #999;
+    opacity: 0.8; ;
+}
+.ola {
+    color: rgb(0, 0, 0);
+}
+
+/* BG -image */
+.bg-image {
+    background-image:url(../img/pexels-felix-mittermeier-956981.jpg);
+    padding: 10px;
+    color: white;
+     
+}
+
+/* Centralizando bg image */
+.nao-centralizado,
+.centralizdo {
+    height: 400px;
+    width: 400px;
+    background-image:url(../img/pexels-adrien-thiry-14268752\ \(1\).jpg) ;
+}
+
+.nao-centralizado {
+    background-position: center;
+    background-size: cover;
+    
+}

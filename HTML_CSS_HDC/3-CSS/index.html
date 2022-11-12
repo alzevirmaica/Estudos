@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- Internal CSS -->
+    <style>
+        p {
+            color: rgb(145, 125, 15);
+            font-size: 30px;
+        }
+    </style>
+    <!--4- External CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/list.css">
+</head>
+
+<body>
+    <!-- 1- Inline cSS -->
+    <h1 style="color:red">Mudar cor com o inline</h1>
+    <h2 style="color: blue">Outro título</h2>
+
+    <!--2- Multiplas regras -->
+    <h2 style="color: purple; font-size:30px; border-bottom: 1px solid red;">Mudar cor e tamanho da fonte</h2>
+
+    <!--3 Internal CSS -->
+    <p>Eu fui estilizado pelo internal</p>
+    <p>Mais um</p>
+    <p>E mais outro</p>
+
+    <!--4 External CSS -->
+    <h3>Meu título verde</h3>
+
+    <!--5 Ordem do CSS -->
+    <p style="color:brown">Ordem do css</p>
+
+    <!-- 6- multiplos -->
+    <ul>
+        <li>Banana</li>
+        <li>Maça</li>
+        <li>Abacate</li>
+    </ul>
+
+        <!-- Classes -->
+    <p class="paragraph">Algum texto</p>
+    <p class="paragraph">Algum texto 2</p>
+    <p class="paragraph">Algum texto 3</p>
+
+    <!-- ID -->
+    <h1 id="titulo-exclusivo">Este é um título com ID</h1>
+
+    <!-- RGBA -->
+    <p class="rgba">Este foi testado com rgba</p>
+
+    <!-- Background-color -->
+    <p class="bg">Mude o meu background</p>
+    <h2 class="bg-2">Outra variação do bg</h2>
+
+    <!-- Opacidade no background -->
+    <div class="bg-opacidade">
+        <p>Estou aqui</p>
+    </div>
+    <div class="bg-opacidade-2">
+        <p class="ola">Estou aqui quase visível</p>
+    </div>
+
+    <!--bg image  -->
+    <h1 class="bg-image">Este título tem uma imagem</h1>
+
+    <!-- Centralizar img de bg -->
+    <div class="nao-centralizado"></div>
+    <div class="centralizado"></div>
+</body>
+
+</html>
