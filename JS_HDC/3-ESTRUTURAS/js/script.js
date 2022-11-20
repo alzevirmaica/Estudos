@@ -18,20 +18,39 @@ alert(`Olá ${nome}! você tem ${idade} anos.`)
 //console.warn("Aviso!")
 
 // if / else if / else
-const nota1 = Number(prompt("Digite sua primeira nota: "))
-const nota2 = Number(prompt("Digite sua segunda nota: "))
-const nota3 = Number(prompt("Digite sua terceira nota: "))
+// const nota1 = Number(prompt("Digite sua primeira nota: "))
+// const nota2 = Number(prompt("Digite sua segunda nota: "))
+// const nota3 = Number(prompt("Digite sua terceira nota: "))
 
-const soma = nota1 + nota2 + nota3
-const media = soma / 3
+// const soma = nota1 + nota2 + nota3
+// const media = soma / 3
 
-if(media >= 7) {
-    alert(`Sua media foi ${media.toFixed(2)}, situação: Aprovado!`)
+// if(media >= 7) {
+//     alert(`Sua media foi ${media.toFixed(2)}, situação: Aprovado!`)
 
-}else if(media >= 5) {
-    alert(`sua media foi ${media.toFixed(2)}, situação: Recuperação`)
+// }else if(media >= 5) {
+//     alert(`sua media foi ${media.toFixed(2)}, situação: Recuperação`)
 
-}else {
-    alert("Você está reprovado!")
-}
+// }else {
+//     alert("Você está reprovado!")
+// }
  
+
+// Switch
+
+// const job = "asd"
+
+// switch(job) {
+//     case "programador":
+//         console.log('Você é um programador!')
+//         break
+//     case "advogado":
+//         console.log("Você é um advogado")
+//         break
+//     case "Engenheiro":
+//         console.log("Você é um engenheiro")
+//         break
+//     default:
+//         console.log("Profissão não encotrada")
+// }
+
