@@ -1,15 +1,25 @@
 /* reset */
+
+  @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: #f0ebf8;
+    background-color:#bf5b04af;
 }
 
-h1, h2 , h3, h4, h5 {
+h1,
+h2,
+
+h4,
+h5 {
     color: #333;
 }
 
@@ -35,17 +45,32 @@ textarea {
     padding: 10px 5px;
     width: 400px;
 }
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
 
 /* Cabeçalho */
 
 .header {
-    height: 160px;
-    padding: 20px;
-    background-color:#673ab7 ;
+    min-height: 60vh;
+    background-image: url("img/marek-pospisil-oUBjd22gF6w-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+    position: relative;
+    /* opacity: 0.7; */
 }
+
 .header h3 {
     color: #fff;
-    margin-top: 0;
+    margin-top: 0px;
+    /* background-color:#f59644;  */
+    width: 100%;
+    margin-right: 30%;
+    height:40px;
+
+    
 }
 
 /* form container */
@@ -54,19 +79,20 @@ textarea {
     width: 60%;
     margin: 0 auto;
     position: relative;
-    top: -62px;
+    top: -100px;
+    border-radius: 5px;
 }
 
 /* form-header */
 
 .form-header {
-    border-bottom: 1px solid #dfdfdf;
+    border-bottom: 1px solid #cac3c3fd;
     height: 45px;
 }
 
 .form-header p {
-    color: #673ab7;
-    border-bottom: 2px solid #673ab7;
+    color: #3a3cb7;
+    border-bottom: 2px solid rgb(26, 45, 73);
     width: 100px;
     text-align: center;
     margin: 0 auto;
@@ -90,12 +116,12 @@ textarea {
 }
 
 .required-field {
-    color:#d80835;
+    color: #d80835;
 }
 
 .box-input {
     margin-bottom: 35px;
-    
+
 }
 
 .block {
@@ -117,7 +143,7 @@ textarea {
 }
 
 .btn-submit {
-    background-color: #673ab7;
+    background-color: #023373;
     color: #fff;
     border: 2px solid transparent;
     width: 150px;
@@ -128,6 +154,6 @@ textarea {
 
 .btn-submit:hover {
     background-color: #fff;
-    border-color: #673ab7;
-    color: #673ab7;
+    border-color: rgba(26, 45, 73, 0.692);
+    color: rgb(26, 45, 73);
 }

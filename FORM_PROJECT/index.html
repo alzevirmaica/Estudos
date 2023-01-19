@@ -11,95 +11,62 @@
 
 <body>
     <div class="container">
-        <div class="header">
-            <h3>Cadastre seu veículo para vender mais rápido!</h3>
-        </div>
+        
+         <div class="header">
+             <h3>Cadastre seu veículo para vender mais rápido!</h3> 
+        </div> 
         <div class="form-container">
             <div class="form-header">
                 <p>Formulário</p>
             </div>
             <div class="form-body">
                 <h1 class="form-title">Venda fácil seu carro!</h1>
+
                 <p>
                     Descreva as características e marque os opcionais que ele possui
                 </p>
                 <form action="">
                     <div class="box-input">
                         <label for="title">Título do anúncio <span class="required-field">*</span></label>
-                        <input
-                        type="text"
-                        name="title" id="title"
-                        class="block"
-                        placeholder="Um título para anunciar seu carro"
-                        minlength="1"
-                        maxlength="30"
-                        required>
+                        <input type="text" name="title" id="title" class="block"
+                            placeholder="Um título para anunciar seu carro" minlength="1" maxlength="30" required>
                     </div>
 
                     <div class="box-input">
                         <label for="price">Preço<span class="required-field">*</span></label>
-                        <input
-                        type="number"
-                        name="price" 
-                        id="price"
-                        class="block"
-                        placeholder="Defina o preço"
-                        required>
+                        <input type="number" name="price" id="price" class="block" placeholder="Defina o preço"
+                            required>
                     </div>
 
-                    
+
                     <div class="box-input">
-                        <label for="description" >Descrição<span class="required-field">*</span></label>
-                       <textarea 
-                       name="decription" 
-                       id="description" 
-                       class="block"
-                       placeholder="Aqui você coloca os detalhes do veículo, por exemplo: se possui algum arranhão"
-                       >
+                        <label for="description">Descrição<span class="required-field">*</span></label>
+                        <textarea name="decription" id="description" class="block"
+                            placeholder="Aqui você coloca os detalhes do veículo, por exemplo: se possui algum arranhão">
                     </textarea>
                     </div>
 
                     <div class="box-input">
                         <label for="brand">Marca<span class="required-field">*</span></label>
-                        <input
-                        type="text"
-                        name="brand" 
-                        id="brand"
-                        class="block"
-                        placeholder="A marca do veículo"
-                        required>
+                        <input type="text" name="brand" id="brand" class="block" placeholder="A marca do veículo"
+                            required>
                     </div>
 
                     <div class="box-input">
                         <label for="model">Modelo<span class="required-field">*</span></label>
-                        <input
-                        type="text"
-                        name="model" 
-                        id="model"
-                        class="block"
-                        placeholder="Digite o modelo do veículo"
-                        required>
+                        <input type="text" name="model" id="model" class="block"
+                            placeholder="Digite o modelo do veículo" required>
                     </div>
 
                     <div class="box-input">
                         <label for="mileage">Kilometragem<span class="required-field">*</span></label>
-                        <input
-                        type="number"
-                        name="mileage" 
-                        id="mileage"
-                        class="block"
-                        placeholder="Digite a kilometragem do veículo"
-                        required>
+                        <input type="number" name="mileage" id="mileage" class="block"
+                            placeholder="Digite a kilometragem do veículo" required>
                     </div>
 
                     <div class="box-input">
                         <label for="purchase-date">Data de compra<span class="required-field">*</span></label>
-                        <input
-                        type="data"
-                        name="purchase-date" 
-                        id="purchase-date"
-                        class="block"
-                        required>
+                        <input type="data" name="purchase-date" id="purchase-date" class="block" required>
                     </div>
 
                     <div class="box-input">
@@ -114,86 +81,46 @@
                         <p>Opcionais</p>
                         <ul class="optional-list">
                             <li>
-                                <input 
-                                type="checkbox" 
-                                id="airbag" 
-                                name="optional[]" 
-                                value="airbag"
-                                >
+                                <input type="checkbox" id="airbag" name="optional[]" value="airbag">
                                 <label for="airbag">Airbag</label>
                             </li>
 
                             <li>
-                                <input 
-                                type="checkbox" 
-                                id="alarm" 
-                                name="optional[]" 
-                                value="alarm"
-                                >
+                                <input type="checkbox" id="alarm" name="optional[]" value="alarm">
                                 <label for="alarm">Alarme</label>
                             </li>
 
                             <li>
-                                <input 
-                                type="checkbox" 
-                                id="ac" 
-                                name="optional[]" 
-                                value="ac"
-                                >
+                                <input type="checkbox" id="ac" name="optional[]" value="ac">
                                 <label for="ac">Ar condicionado</label>
                             </li>
 
                             <li>
-                                <input 
-                                type="checkbox" 
-                                id="reverse_camera" 
-                                name="optional[]" 
-                                value="reverse_camera"
-                                >
+                                <input type="checkbox" id="reverse_camera" name="optional[]" value="reverse_camera">
                                 <label for="reverse_camera">Câmera de ré</label>
                             </li>
                         </ul>
                     </div>
                     <div class="optional-box">
-                        
+
                         <ul class="optional-list">
                             <li>
-                                <input 
-                                type="checkbox" 
-                                id="lane_assist" 
-                                name="optional[]" 
-                                value="lane_assist"
-                                >
+                                <input type="checkbox" id="lane_assist" name="optional[]" value="lane_assist">
                                 <label for="lane_assist">Assistente de pista</label>
                             </li>
 
                             <li>
-                                <input 
-                                type="checkbox" 
-                                id="keyless" 
-                                name="optional[]" 
-                                value="keyless"
-                                >
+                                <input type="checkbox" id="keyless" name="optional[]" value="keyless">
                                 <label for="keyless">Partida keyless</label>
                             </li>
 
                             <li>
-                                <input 
-                                type="checkbox" 
-                                id="smartphone" 
-                                name="optional[]" 
-                                value="smartphone"
-                                >
+                                <input type="checkbox" id="smartphone" name="optional[]" value="smartphone">
                                 <label for="smartphone">Integração com celular</label>
                             </li>
 
                             <li>
-                                <input 
-                                type="checkbox" 
-                                id="leather-seat" 
-                                name="optional[]" 
-                                value="leather-seat"
-                                >
+                                <input type="checkbox" id="leather-seat" name="optional[]" value="leather-seat">
                                 <label for="leather-seat">Banco de couro</label>
                             </li>
                         </ul>
@@ -201,21 +128,12 @@
 
                     <div class="box-input">
                         <p>Fotos do carro: <span class="required-field">*</span></p>
-                        <input 
-                        type="file" 
-                        multiple 
-                        accept="image/png, image/jpg"
-                        name="images" 
-                        id="images"
-                        required>
+                        <input type="file" multiple accept="image/png, image/jpg" name="images" id="images" required>
                     </div>
 
-                    <input 
-                    type="submit" 
-                    value="Enviar"
-                    class="btn-submit">
-                    </div>
-                </form>
+                    <input type="submit" value="Enviar" class="btn-submit">
+            </div>
+            </form>
         </div>
     </div>
 </body>
