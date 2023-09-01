@@ -1,0 +1,435 @@
+/* 4- External*/
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+/* classes */
+
+.paragraph {
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+}
+
+#titulo-exclusivo {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.rgba {
+    color: rgba(100, 199, 45, 0.3);
+}
+
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color: rgb(200, 20, 40);
+    color: aquamarine;
+}
+
+.bg-opacidade {
+    background-color: green;
+    opacity: 0.2;
+    ;
+}
+
+.bg-opacidade-2 {
+    background-color: #999;
+    opacity: 0.8;
+    ;
+}
+
+.ola {
+    color: rgb(0, 0, 0);
+}
+
+/* BG -image */
+.bg-image {
+    background-image: url(../img/pexels-felix-mittermeier-956981.jpg);
+    padding: 10px;
+    color: white;
+
+}
+
+/* Centralizando bg image */
+.nao-centralizado,
+.centralizdo {
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/pexels-adrien-thiry-14268752\ \(1\).jpg);
+}
+
+.nao-centralizado {
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* Largura e altura */
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+.height-width-2 {
+    height: 300px;
+    background-color: #999;
+}
+
+/* Padding */
+.sem-padding {
+    background-color: #111;
+    color: #fff;
+}
+
+.padding {
+    background-color: rgb(75, 61, 61);
+    color: #fff;
+    padding: 20px;
+}
+
+/* padding-individual */
+.padding-individual {
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* Shorthand padding */
+.shorthand-padding {
+    background-color: #444;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2 {
+    background-color: #555;
+    padding: 10px 20px;
+}
+
+/* padding com widht */
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Border */
+.border {
+    border: 5px solid red;
+    padding: 10px;
+}
+
+
+.border-2 {
+    border: 2px dotted #931;
+    padding: 25px;
+}
+
+/* borda individual */
+.border-left {
+    border-left: 3px solid red;
+    background-color: #222;
+    padding: 25px;
+}
+
+.border-bottom {
+    border-bottom: 5px double #399;
+    background-color: #222;
+    padding: 20px;
+}
+
+/* Borda arredondada */
+
+.rounded-p {
+    border: 4px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.rounded-p-2 {
+
+    background-color: #000;
+    color: blue;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+/* margem */
+.margin {
+    margin: 10px;
+    background-color: #222;
+}
+
+.margin-top {
+    margin-top: 50px;
+    background-color: #444;
+    padding: 10px;
+}
+
+.margin-shorthand {
+    background-color: #666;
+    margin: 5px 10px 15px 20px;
+}
+
+/* Box model */
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+}
+
+/* text- align */
+.text-aligned {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+/* Text decoration */
+.underline {
+    text-decoration: underline;
+}
+
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: #931;
+}
+
+/* Text transform */
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+/* letter sapce */
+
+.space {
+    letter-spacing: 5px;
+}
+
+/* Fontes */
+
+.serif {
+    font-family: Georgia;
+}
+
+
+.monospace {
+    font-family: monospace;
+}
+
+.cursive {
+    font-family: Courier New;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+/* font style */
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+/* font weight */
+
+.thin,
+.bold,
+.bolder {
+    font-family: helvetica;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/* Font size */
+.small {
+    font-size: 10px;
+}
+
+.big {
+    font-size: 78px;
+}
+
+/* Display */
+
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block {
+    background-color: #333;
+    display: block;
+    margin: 10px;
+}
+
+.invisible {
+    display: none;
+}
+
+/* POsições dos elementos (1- static) */
+
+.static {
+    position: static;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+/* 2- Relative */
+
+.relative {
+    position: relative;
+    background-color: #224;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: #964;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    height: 2px;
+}
+
+/*Absolute e relative  */
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* fixed */
+.fixed {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: #851;
+    border: 1px solid blue;
+    top: 50px;
+    height: 100px;
+    right: 100px;
+}
+
+/* sticky */
+.sticky {
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    background-color: #994;
+    border: 1px solid green;
+    top: 10px;
+}
+
+/* z-index */
+
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+ .absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color:#246 ;
+    z-index: 2;
+ }
+
+ .absolute-5 {
+    top: 40px;
+    left: 40px;
+    background-color: #453;
+    z-index:1 ;
+ }

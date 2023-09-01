@@ -1,0 +1,42 @@
+body {
+    background-image: url(../img/pexels-andrey-grushnikov-707676.jpg);
+    
+}
+
+.container {
+    max-width: 500px ;
+    background-color: rgba(102, 17, 17, 0.979);
+    position: relative;
+    margin: 50px auto;
+    padding: 30px 60px;
+    color: rgb(252, 244, 244);
+    text-align: center;
+    height: 300px;
+    border-radius: 5px;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+input {
+    width: 100px;
+    height: 15px;
+    border-radius: 3px;
+    padding: 5px 5px 1px 5px;
+    
+}
+
+.btn {
+    padding: 25px;
+    padding-bottom: 37px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: coral;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
